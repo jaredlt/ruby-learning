@@ -1,0 +1,28 @@
+# A collection of progressively more difficult exercises http://adriann.github.io/programming_problems.html
+01. Write a program that prints ‘Hello World’ to the screen.
+02. Write a program that asks the user for his name and greets him with his name.
+03. Modify the previous program such that only the users Alice and Bob are greeted with their names.
+04. Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+05. Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+06. Write a program that asks the user for a number n and gives him the possibility to choose between computing the sum and computing the product of 1,…,n.
+07. Write a program that prints a multiplication table for numbers up to 12.
+08. Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can represent is fine too.)
+09. Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether his number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if the user inputs the same number consecutively.
+10. Write a program that prints the next 20 leap years.
+
+# Given a string s, return a string
+# where all occurences of its first char have
+# been changed to '*', except do not change
+# the first char itself.
+# e.g. 'babble' yields 'ba**le'
+
+# Build a password generator
+
+# Build a game
+
+# Build http://tabstract.io/ for stop watch gallery
+
+# send Messages to a HipChat room via the API https://www.hipchat.com/docs/api/method/rooms/message
+
+# Review the default methods eg. .each to see how they implement their blocks and yields (get a better understanding under-the-bonnet)
+

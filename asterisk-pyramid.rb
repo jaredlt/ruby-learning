@@ -1,8 +1,3 @@
-# puts "Hello, Ruby Programmer"
-# puts "It is now #{Time.now}"
-
-
-	
 # Print out a pyramid of asterisks based on a specified width
 def asterisk_tree(width=10)
 	#fixed variables
@@ -16,7 +11,7 @@ def asterisk_tree(width=10)
 	# loop each line until the max width is reached
 	while space_length > 0
 
-		# create string of space with specific length
+		# create string of spaces with specific length
 		space_string = space
 		while space_string.length < space_length
 			space_string += space
