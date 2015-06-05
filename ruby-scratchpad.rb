@@ -1,7 +1,1 @@
-person1 = "Tim"
-person2 = person1
-person1.freeze
-person1[0] = 'J'
-
-puts "person1 is #{person1}"
-puts "person2 is #{person2}"
+puts [1,2,3].inject(1) {|product, element| product*element}
