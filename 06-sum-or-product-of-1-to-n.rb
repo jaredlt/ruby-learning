@@ -38,7 +38,8 @@ def sum_or_product
 	puts "Do you want to calculate the sum or product of 1 to #{number}?"
 	input_sum_product = gets.chomp.to_s.downcase
 
-	puts "input_sum_product: #{input_sum_product}"
+	#debugging
+	puts "Debug input_sum_product: #{input_sum_product}"
 
 	# while input_sum_product != "sum" || input_sum_product != "product" do
 	# 	puts "Sorry, I did't recognise that. Do you want to calculate the sum or product of 1 to #{number}?"
