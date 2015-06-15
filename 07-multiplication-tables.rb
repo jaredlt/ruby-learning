@@ -5,7 +5,6 @@ multiplcation_max = 12
 
 # create array of integers from 0 to input
 numbers = []
-
 for n in 0..multiplcation_max
 	numbers << n
 end
@@ -18,7 +17,7 @@ while location <= multiplcation_max do
 	multiple = []
 	# start at 0 and multiply with each of the array elements, saving each into a new array (multiple)
 	numbers.each {|n| multiple << location * n}
-	# each row of the multiplcation table is stored as an array into a new, array of arrays
+	# each row of the multiplcation table is stored as an array into a new, array of arrays (multiples)
 	multiples << multiple
 	location += 1
 end
@@ -40,35 +39,37 @@ multiples_pretty.map do |x|
 	number += 1
 end
 
-multiples_pretty.map! do |x|
+def map_to_string(x)
 	x.map! { |e| e.to_s }
+	return x
 end
 
-# prepend spaces to each number in each array so each number has the same number of characters
-multiples_pretty.map do |x|
-	x.map do |e|
-		while e.size < max_length do
+multiples_pretty.map! do |x|
+	map_to_string(x)
+end
+
+def prepend_spaces(value)
+	value.map do |e|
+		while e.size < @max_length do
 			e.insert(0, " ")
 		end
 	end
+	return value
+end
+@max_length = max_length
+
+# prepend spaces to each number in each array so each number has the same number of characters
+multiples_pretty.map do |x|
+	prepend_spaces(x)
 end
 ##### End Prettify
 
 #add header row
 header = numbers
 header.unshift("X")
-
-#TODO: DRY
-header.map! { |e| e.to_s }
-
-#TODO: DRY
-header.map do |e|
-	while e.size < max_length do
-		e.insert(0, " ")
-	end
-end
-
- puts header.join(" ")
+map_to_string(header)
+prepend_spaces(header)
+puts header.join(" ")
 
 #print multiplcation tables
 count = 0
