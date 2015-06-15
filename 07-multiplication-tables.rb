@@ -77,6 +77,3 @@ while count <= multiplcation_max do
 	puts multiples_pretty[count].join(" ")
 	count += 1
 end
-
-
-## TODO: DRY
