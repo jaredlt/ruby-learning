@@ -7,7 +7,7 @@
 06. Write a program that asks the user for a number n and gives him the possibility to choose between computing the sum and computing the product of 1,…,n.
 07. Write a program that prints a multiplication table for numbers up to 12.
 08. Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can represent is fine too.)
-09. Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether his number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if the user inputs the same number consecutively.
+09. Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether his number was too large or too small. At the end the number of tries needed should be printed. It counts only as one try if the user inputs the same number consecutively.
 10. Write a program that prints the next 20 leap years.
 
 # Given a string s, return a string

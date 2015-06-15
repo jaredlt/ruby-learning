@@ -32,8 +32,16 @@ max_length = multiplcation_max_squared.to_s.size
 # create new class of 'multiples' and convert to string so can prepend spaces
 # leave original array as integers so it's easy to modify / poke later
 multiples_pretty = multiples
+
+# append header value to each row
+number = 0
+multiples_pretty.map do |x|
+	x.unshift(number)
+	number += 1
+end
+
 multiples_pretty.map! do |x|
-	x.map { |e| e.to_s }
+	x.map! { |e| e.to_s }
 end
 
 # prepend spaces to each number in each array so each number has the same number of characters
@@ -46,6 +54,22 @@ multiples_pretty.map do |x|
 end
 ##### End Prettify
 
+#add header row
+header = numbers
+header.unshift("X")
+
+#TODO: DRY
+header.map! { |e| e.to_s }
+
+#TODO: DRY
+header.map do |e|
+	while e.size < max_length do
+		e.insert(0, " ")
+	end
+end
+
+ puts header.join(" ")
+
 #print multiplcation tables
 count = 0
 while count <= multiplcation_max do
@@ -53,4 +77,5 @@ while count <= multiplcation_max do
 	count += 1
 end
 
-## TODO: add header row and column :/
+
+## TODO: DRY
