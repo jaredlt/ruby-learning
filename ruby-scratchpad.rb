@@ -1,1 +1,5 @@
-puts [1,2,3].inject(1) {|product, element| product*element}
+def five(a, b, c, d, e)
+	"I was passed #{a} #{b} #{c} #{d} #{e}"
+end
+
+puts five(1,2,3,*[4, 5])

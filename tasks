@@ -22,7 +22,22 @@
 
 # Build http://tabstract.io/ for stop watch gallery
 
-# send Messages to a HipChat room via the API https://www.hipchat.com/docs/api/method/rooms/message
+# send Messages to a HipChat room via the API https://www.hipchat.com/docs/apiv2/webhooks#room_message
 
 # Review the default methods eg. .each to see how they implement their blocks and yields (get a better understanding under-the-bonnet)
 
+# Practicing Ruby https://practicingruby.com/
+
+# https://projecteuler.net/archives
+
+# How to create your own website based on Docker http://project-webdev.blogspot.de/2015/05/create-site-based-on-docker-part1.html
+
+# Closures in Ruby https://innig.net/software/ruby/closures-in-ruby.html
+
+# Notify Paulo when we archives a card ("closed" in Trello API speak)
+
+# https://github.com/elm-city-craftworks/practicing-ruby-manuscripts/tree/master/articles/v1
+
+# https://rubymonk.com/
+
+# design a game of naughts and crosses

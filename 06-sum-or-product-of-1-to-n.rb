@@ -46,7 +46,7 @@ def sum_or_product
 	# 	input_sum_product = gets.chomp.to_s.downcase
 	# end
 
-	# why does the until loop work but the while loop doesn't?
+	# why does the until loop work but the while loop doesn't? (A: because of true and false)
 	until input_sum_product == "sum" || input_sum_product == "product" do
 		puts "Sorry, I didn't recognise that. Do you want to calculate the sum or product of 1 to #{number}?"
 		input_sum_product = gets.chomp.to_s.downcase
