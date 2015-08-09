@@ -34,7 +34,7 @@
 
 # Closures in Ruby https://innig.net/software/ruby/closures-in-ruby.html
 
-# Notify Paulo when we archives a card ("closed" in Trello API speak)
+# Notify Paulo when we archive a card ("closed" in Trello API speak)
 
 # https://github.com/elm-city-craftworks/practicing-ruby-manuscripts/tree/master/articles/v1
 
